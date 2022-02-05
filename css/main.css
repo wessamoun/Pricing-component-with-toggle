@@ -1,0 +1,222 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+main {
+  background-color: #eeeefc;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 150px;
+}
+
+main .bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+main .top {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+main section {
+  text-align: center;
+  position: relative;
+}
+
+main section h1 {
+  color: #494c5f;
+  margin-bottom: 50px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+main section .switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  color: #6d708d;
+  margin-bottom: 80px;
+}
+
+main section .switch .switcher {
+  width: 60px;
+  height: 30px;
+  background-image: linear-gradient(135deg, #a3a8f0 0%, #696fdd 100%);
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+main section .switch .switcher:hover {
+  background-image: linear-gradient(135deg, #a3a8f0 0%, #898ee6 100%);
+}
+
+main section .switch .switcher .circle {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 30px;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main section .switch .switcher .circle.ann {
+  left: 5px;
+}
+
+main section .plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+main section .plans .box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  main section .plans .box {
+    margin-bottom: 50px;
+  }
+}
+
+main section .plans .box p {
+  color: #6d708d;
+}
+
+main section .plans .box .price {
+  margin-bottom: 20px;
+  color: #494c5f;
+  font-size: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section .plans .box .price span {
+  font-size: 40px;
+  margin-right: 5px;
+}
+
+main section .plans .box .price.an {
+  display: none;
+}
+
+main section .plans .box ul {
+  list-style: none;
+  margin: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section .plans .box ul li {
+  padding: 15px;
+  display: block;
+  font-size: 15px;
+  color: #6d708d;
+  text-align: center;
+  width: 300px;
+  border-bottom: 1px solid #eeeefc;
+}
+
+main section .plans .box ul li:nth-of-type(1) {
+  border-top: 1px solid #eeeefc;
+}
+
+main section .plans .box button {
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(135deg, #a3a8f0 0%, #696fdd 100%);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin-top: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main section .plans .box button:hover {
+  background-color: white;
+  border: 2px solid #696fdd;
+  background-image: none;
+  color: #696fdd;
+}
+
+main section .plans .box.middle {
+  background-image: linear-gradient(135deg, #a3a8f0 0%, #696fdd 100%);
+  -webkit-transform: scaleY(1.1);
+          transform: scaleY(1.1);
+}
+
+main section .plans .box.middle p {
+  color: white;
+}
+
+main section .plans .box.middle .price {
+  color: white;
+}
+
+main section .plans .box.middle li {
+  color: white;
+}
+
+main section .plans .box.middle button {
+  color: #696fdd;
+  background-color: white;
+  background-image: none;
+}
+
+main section .plans .box.middle button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  background-image: none;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
